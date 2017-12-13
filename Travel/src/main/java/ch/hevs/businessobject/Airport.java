@@ -17,7 +17,6 @@ public class Airport {
 	@Column(name="iata")
 	private String iata;
 
-	// relations
 	@OneToMany
 	private Flight flight;
 
