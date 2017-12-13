@@ -23,7 +23,7 @@ public class Flight {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
     @Column(name="flightnumber")
-    private String flightnumber;
+    private String flightnb;
 
     public long getId() {
         return id;
@@ -33,12 +33,12 @@ public class Flight {
         this.id = id;
     }
 
-    public String getFlightnumber() {
-        return flightnumber;
+    public String getFlightnb() {
+        return flightnb;
     }
 
-    public void setFlightnumber(String flightnumber) {
-        this.flightnumber = flightnumber;
+    public void setFlightnb(String flightnumber) {
+        this.flightnb = flightnumber;
     }
 }
 
